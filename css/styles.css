@@ -10171,3 +10171,36 @@ section.resume-section .resume-section-content {
   color: black;
   font-weight: bold;
 }
+
+
+.mail-text {
+  font-size: 14px;
+  color: #444;
+}
+
+.mail-text i {
+  margin-right: 6px;
+  color: #555;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* spacing between each link */
+  margin-top: 10px;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.social-links a i {
+  margin-right: 6px;
+  font-size: 18px;
+  color: #b1462c; /* reddish like in your screenshot */
+}
+
