@@ -10171,22 +10171,49 @@ section.resume-section .resume-section-content {
   color: black;
   font-weight: bold;
 }
-
-
-.mail-text {
-  font-size: 14px;
-  color: #444;
+.resume-section-content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
 }
 
-.mail-text i {
-  margin-right: 6px;
+.text-primary {
+  color: #b1462c; /* same reddish accent */
+}
+
+.designation-text {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* space between contact items */
+  font-size: 0.95rem;
   color: #555;
+}
+
+.contact-info i {
+  margin-right: 6px;
+  color: #666;
+}
+
+.contact-info a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
 }
 
 .social-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px; /* spacing between each link */
+  gap: 20px; /* space between social links */
   margin-top: 10px;
 }
 
@@ -10194,13 +10221,19 @@ section.resume-section .resume-section-content {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: #333;
   font-weight: 500;
+  color: #333;
 }
 
 .social-links a i {
   margin-right: 6px;
   font-size: 18px;
-  color: #b1462c; /* reddish like in your screenshot */
+  color: #b1462c; /* accent color */
 }
+
+.social-links a:hover {
+  color: #b1462c;
+}
+
+
 
