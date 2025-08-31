@@ -10173,5 +10173,8 @@ section.resume-section .resume-section-content {
 }
 
 
+.fw-bold {
+  font-weight: 600; /* use 700 if you want full bold */
+}
 
 
