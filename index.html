@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zeeshan Ali — Portfolio</title>
+  <meta name="description" content="Portfolio of Zeeshan Ali, Principal Applications Engineer" />
+  <link rel="icon" type="image/x-icon" href="assets/img/cv.ico" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Optional: add your preferred font -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet"> -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="brand">
+      <img src="assets/img/profile.jpeg" alt="Zeeshan Ali" class="avatar" loading="lazy" />
+      <div>
+        <h1 class="brand-title">Zeeshan <span class="accent">Ali</span></h1>
+        <p class="brand-subtitle">Principal Applications Engineer</p>
+      </div>
+    </div>
+
+    <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">
+      <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M21.64 13a9 9 0 11-10.63-10.6 1 1 0 01.88 1.69A7 7 0 1019.93 12a1 1 0 011.71 1z" fill="currentColor"/>
+      </svg>
+    </button>
+
+    <nav class="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="#about" class="active">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-content">
+        <h2 class="hero-title reveal-up">Building performant, scalable, delightful web experiences.</h2>
+        <p class="hero-text reveal-up delay-1">
+          8+ years architecting, developing, and testing enterprise-level web apps across Banking, Media, and Healthcare.
+        </p>
+        <div class="hero-cta reveal-up delay-2">
+          <a href="#experience" class="btn primary">View Experience</a>
+          <a href="mailto:alizeeshan0704@gmail.com" class="btn">Contact</a>
+        </div>
+        <div class="hero-meta reveal-up delay-3">
+          PUNE · INDIA · +91 8793555463 · <a href="mailto:alizeeshan0704@gmail.com">alizeeshan0704@gmail.com</a>
+        </div>
+        <div class="social reveal-up delay-4" aria-label="Social links">
+          <a href="https://www.linkedin.com/in/zeeshan-ali-mg/" target="_blank" rel="noopener">LinkedIn</a>
+          <span class="dot"></span>
+          <a href="https://github.com/ZeeshanAli-0704" target="_blank" rel="noopener">GitHub</a>
+          <span class="dot"></span>
+          <a href="https://dev.to/zeeshanali0704" target="_blank" rel="noopener">dev.to</a>
+          <span class="dot"></span>
+          <a href="https://leetcode.com/u/Zeeshan_Ali_MG/" target="_blank" rel="noopener">LeetCode</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="grid"></div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <header class="section-header">
+        <h2 class="section-title">Professional Summary</h2>
+      </header>
+      <div class="card reveal-fade">
+        <ul class="pro-list">
+          <li><strong>Results-driven</strong> Principal Applications Engineer with <strong>8+ years</strong> in scalable <strong>enterprise web apps</strong>.</li>
+          <li>Expert in modern <strong>JavaScript ecosystems</strong>: React, Redux, Angular, Next.js, Node.js, KnockoutJS.</li>
+          <li>Skilled in <strong>component-driven architectures</strong>, <strong>state management</strong>, and <strong>API integration</strong>.</li>
+          <li>Strong <strong>communication</strong> and <strong>collaboration</strong>; <strong>6-month onsite</strong> in South Africa.</li>
+          <li>Domains: <strong>Banking & Financial Services</strong>, <strong>Media/Broadcasting</strong>, <strong>Healthcare</strong>.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+      <header class="section-header">
+        <h2 class="section-title">Experience</h2>
+      </header>
+      <div class="timeline">
+
+        <article class="timeline-item reveal-slide">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-top">
+              <h3>Principal Applications Engineer</h3>
+              <span class="pill">Jan 2024 – Present</span>
+            </div>
+            <p class="sub">Oracle · Bengaluru, India</p>
+            <p class="proj"><strong>Enterprise Command Center (ECC)</strong></p>
+            <p>Advanced information discovery and visualization in Oracle EBS for real-time interactive dashboards.</p>
+            <p class="stack"><strong>Tech Stack:</strong> Knockout.js, JavaScript, Oracle JET, CSS, Jenkins CI/CD, Node.js</p>
+            <ul class="bullets">
+              <li>Re-engineered component init flow for <strong>parallel panel loading</strong>, cutting load time by <strong>up to 77%</strong>.</li>
+              <li>Streamlined configuration storage with <strong>80% reduction</strong> in data size.</li>
+              <li>Built reusable <strong>Node.js SDK</strong> used across projects and MCP tools.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal-slide delay-1">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-top">
+              <h3>Senior Member Technical Staff</h3>
+              <span class="pill">Feb 2021 – Jan 2024</span>
+            </div>
+            <p class="sub">athenahealth · Pune, India</p>
+            <p class="proj"><strong>OneChart</strong></p>
+            <p>Consolidated records platform to view patient data from multiple EHR systems.</p>
+            <p class="stack"><strong>Tech Stack:</strong> React-Redux, React, TypeScript, HTML/CSS, Chai, Mocha, RTL, Jenkins CI/CD</p>
+            <ul class="bullets">
+              <li>Led <strong>from scratch</strong>: architecture, implementation, and production deployment.</li>
+              <li>Created reusable <strong>component library</strong> aligned with UX.</li>
+              <li>Implemented <strong>JWT authentication</strong> for secure access.</li>
+              <li>Owned complex <strong>configuration/integration</strong> issues end-to-end.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal-slide delay-2">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-top">
+              <h3>Software Developer</h3>
+              <span class="pill">Aug 2019 – Jan 2021</span>
+            </div>
+            <p class="sub">Amdocs · Pune, India</p>
+            <p class="proj"><strong>ASTRO</strong></p>
+            <p>Malaysia’s leading DTH platform with cross-device content experiences.</p>
+            <p class="stack"><strong>Tech Stack:</strong> React-Redux, TypeScript, HTML/CSS, Chai, Mocha, RTL</p>
+            <ul class="bullets">
+              <li>Delivered <strong>responsive, cross-device</strong> solutions improving CX.</li>
+              <li>Drove <strong>RCA, code reviews, and unit testing</strong> for maintainability.</li>
+              <li>Maintained <strong>70%+ coverage</strong>; cleared WhiteSource, Sonar, Checkmarx.</li>
+              <li>Authored <strong>technical documentation</strong>; practiced Agile/Scrum.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal-slide delay-3">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-top">
+              <h3>Software Developer</h3>
+              <span class="pill">Oct 2016 – Aug 2019</span>
+            </div>
+            <p class="sub">Larsen & Toubro Infotech (LTI) · Mumbai, India</p>
+            <p class="proj"><strong>ABSA Regional Office Teller System (ARO)</strong></p>
+            <p>Core banking application supporting teller and back-office operations.</p>
+            <p class="stack"><strong>Tech Stack:</strong> Angular, JavaScript, Java, HTML/CSS, Chai, Mocha</p>
+            <ul class="bullets">
+              <li>Implemented <strong>core banking features</strong> with scalable components.</li>
+              <li>Collaborated with <strong>South Africa client teams</strong> for delivery.</li>
+              <li>Performed <strong>reviews, testing, optimization</strong>; mentored teammates.</li>
+            </ul>
+            <p class="proj mt"><strong>CSSP: Cash Self Service Portal</strong></p>
+            <p><strong>Tech Stack:</strong> Java, JPA, Apache Wicket, HTML/CSS, WebServices, SOAP-UI</p>
+            <ul class="bullets">
+              <li>Owned critical <strong>software components</strong> for performance/reliability.</li>
+              <li>Resolved <strong>requirement conflicts</strong>; aligned stakeholders.</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <header class="section-header">
+        <h2 class="section-title">Skills</h2>
+      </header>
+      <div class="skills-grid reveal-fade">
+        <div class="skill-card">
+          <h3>Languages & Frameworks</h3>
+          <div class="tags">
+            <span>JavaScript</span><span>TypeScript</span><span>React</span><span>Redux</span><span>React Native</span>
+            <span>Angular</span><span>CSS</span><span>KnockoutJS</span><span>jQuery</span><span>Bootstrap</span>
+            <span>Next.js</span><span>Tailwind</span><span>HTML5</span><span>Node.js</span><span>Express.js</span>
+            <span>Java</span><span>Apache Wicket</span><span>SQL</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Testing</h3>
+          <div class="tags">
+            <span>Chai</span><span>Mocha</span><span>Enzyme</span><span>RTL</span><span>Jest</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>DevOps & Cloud</h3>
+          <div class="tags">
+            <span>AWS</span><span>Jenkins</span><span>CI/CD</span><span>Agile Scrum</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Tools</h3>
+          <div class="tags">
+            <span>JIRA</span><span>Bitbucket</span><span>Confluence</span><span>Git</span><span>GitHub</span>
+            <span>VS Code</span><span>Postman</span><span>MobaXterm</span><span>Beyond Compare</span>
+            <span>MySQL Workbench</span><span>IntelliJ</span><span>SOAP UI</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>AI & Productivity</h3>
+          <p class="muted">Proficient in leveraging AI tools (ChatGPT, Claude, etc.) to accelerate development, improve code quality, and automate documentation.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+      <header class="section-header">
+        <h2 class="section-title">Education</h2>
+      </header>
+      <div class="list-cards reveal-fade">
+        <article class="list-card">
+          <div>
+            <h3>Sinhgad Academy of Engineering, University of Pune</h3>
+            <p class="muted">Bachelor of Science (Electronics & Communication Engineering) · Pune, Maharashtra</p>
+          </div>
+          <div class="meta">
+            <span class="pill">Aug 2012 – Jun 2016</span>
+            <span class="stat">75%</span>
+          </div>
+        </article>
+
+        <article class="list-card">
+          <div>
+            <h3>HSC - Central Academy Sardarpura</h3>
+            <p class="muted">XII - Science · Udaipur, Rajasthan</p>
+          </div>
+          <div class="meta">
+            <span class="pill">Aug 2011 – Jun 2012</span>
+            <span class="stat">85%</span>
+          </div>
+        </article>
+
+        <article class="list-card">
+          <div>
+            <h3>SSC - Central Academy Sardarpura</h3>
+            <p class="muted">X - Science · Udaipur, Rajasthan</p>
+          </div>
+          <div class="meta">
+            <span class="pill">Aug 2009 – Jun 2010</span>
+            <span class="stat">78%</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Interests -->
+    <section id="interests" class="section">
+      <header class="section-header">
+        <h2 class="section-title">Interests</h2>
+      </header>
+      <div class="interests reveal-fade">
+        <div class="chip">Cooking</div>
+        <div class="chip">Adventure Activities</div>
+        <div class="chip">Calligraphy</div>
+        <div class="chip">Drawing</div>
+      </div>
+    </section>
+
+    <!-- Certificates -->
+    <section id="certificates" class="section">
+      <header class="section-header">
+        <h2 class="section-title">Certificates / Courses / Writing</h2>
+      </header>
+      <ul class="cert-list reveal-fade">
+        <li>Oracle Cloud Certification - OCI</li>
+        <li>Software Architecture Patterns - O'Reilly</li>
+        <li>Amazon Web Services LinkedIn Certification</li>
+        <li>Technical blogs on <a href="https://dev.to/zeeshanali0704" target="_blank" rel="noopener"><strong>dev.to</strong></a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Zeeshan Ali · Made with care</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
